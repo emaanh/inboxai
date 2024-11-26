@@ -1,0 +1,270 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    width: 400px; /* Set desired width for larger popup */
+    height: 600px; /* Set desired height for larger popup */
+  }
+  
+  #container {
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007BFF; /* Standard blue color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  #spinner {
+    display: none;
+    border: 8px solid #f3f3f3;
+    border-top: 8px solid #007BFF;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    animation: spin 2s linear infinite;
+    vertical-align: middle;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  .email-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  
+  .email-item h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .email-item p {
+    margin: 5px 0 0;
+    color: #666;
+  }
+  
+  #container {
+    padding: 10px;
+    max-width: 400px;
+}
+
+.email-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.email-item h3 {
+    margin: 0 0 10px 0;
+}
+
+.email-item p {
+    margin: 0 0 10px 0;
+}
+
+.delete-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#spinner {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+#container {
+    padding: 10px;
+    max-width: 400px;
+}
+
+.email-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.email-item h3 {
+    margin: 0 0 10px 0;
+}
+
+.email-item p {
+    margin: 0 0 10px 0;
+}
+
+.read-btn {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+#spinner {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+
+#container {
+    padding: 10px;
+    max-width: 400px;
+}
+
+.email-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.email-item h3 {
+    margin: 0 0 10px 0;
+}
+
+.email-item p {
+    margin: 0 0 10px 0;
+}
+
+.read-btn {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: grey;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.read-btn:hover {
+    background-color: #007BFF;
+}
+
+#spinner {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+#container {
+  padding: 10px;
+  max-width: 400px;
+}
+
+.email-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.email-item h3 {
+  margin: 0 0 10px 0;
+}
+
+.email-item p {
+  margin: 0 0 10px 0;
+}
+
+.read-btn {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+#spinner {
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+
+
+#container {
+  padding: 10px;
+  max-width: 400px;
+}
+
+.email-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.email-item h3 {
+  margin: 0 0 10px 0;
+}
+
+.email-item p {
+  margin: 0 0 10px 0;
+}
+
+.read-btn {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+#spinner {
+  margin-left: 10px;
+  font-size: 20px;
+}

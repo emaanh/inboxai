@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>InboxAI</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <style>
+    #spinner {
+      display: none;
+      border: 8px solid #f3f3f3;
+      border-top: 8px solid #007BFF;
+      border-radius: 50%;
+      width: 24px;
+      height: 24px;
+      animation: spin 2s linear infinite;
+      margin-left: 10px;
+      vertical-align: middle;
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    .read-btn {
+      background-color: grey;
+      color: white;
+      border: none;
+      padding: 5px 10px;
+      cursor: pointer;
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+    }
+
+    .read-btn:hover {
+      background-color: #007BFF;
+    }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <h1>InboxAI</h1>
+    <button id="sign-in-btn" style="display:none;">Sign in with Google</button>
+    <button id="sort-btn" style="display:none;">Sort by Priority</button>
+    <button id="sign-out-btn" style="display:none;">Sign out</button>
+    <div id="spinner"></div>
+    <div id="email-list"></div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

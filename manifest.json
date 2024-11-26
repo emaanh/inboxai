@@ -1,0 +1,40 @@
+{
+    "manifest_version": 3,
+    "name": "InboxAI",
+    "version": "1.0",
+    "description": "Email assistant that sorts your emails by priority.",
+    "permissions": [
+        "identity",
+        "identity.email",
+        "storage",
+        "activeTab",
+        "scripting"
+    ],
+    "host_permissions": [
+        "https://www.googleapis.com/"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+        "16": "images/icon16.png",
+        "48": "images/icon48.png",
+        "128": "images/icon128.png"
+        }
+    },
+    "oauth2": {
+        "client_id": "250087621131-9c1de91th5k3fq1k1jaeo8trfven1pfg.apps.googleusercontent.com",
+        "scopes": [
+        "https://www.googleapis.com/auth/gmail.readonly",
+        "https://www.googleapis.com/auth/gmail.modify"
+        ],
+        "redirect_uri": "https://pdokgjhoknphmbbadlelbddomimgmggn.chromiumapp.org/"
+    },
+    "icons": {
+        "16": "images/icon16.png",
+        "48": "images/icon48.png",
+        "128": "images/icon128.png"
+    }
+}
